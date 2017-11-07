@@ -16,4 +16,13 @@ console.log(Object.keys(an_obj)); // console: ['2', '7', '100']
 ```
 
 ###### null在js中属于对象,这一点应该注意处理
+
+###### 
+Object.getOwnPropertyNames()
+      返回一个数组，它包含了指定对象所有的可枚举或不可枚举的属性名。
+Object.keys()
+      返回一个包含所有给定对象自身可枚举属性名称的数组。      
+      
+Object.prototype.propertyIsEnumerable()
+判断指定属性是否可枚举，内部属性设置参见 ECMAScript DontEnum attribute 。      
 [参考文档](http://blog.csdn.net/sinat_17775997/article/details/52297012)
