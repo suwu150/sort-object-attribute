@@ -2,21 +2,21 @@
   "_args": [
     [
       {
-        "raw": "sort-object-attribute@0.0.9",
+        "raw": "sort-object-attribute@0.0.10",
         "scope": null,
         "escapedName": "sort-object-attribute",
         "name": "sort-object-attribute",
-        "rawSpec": "0.0.9",
-        "spec": "0.0.9",
+        "rawSpec": "0.0.10",
+        "spec": "0.0.10",
         "type": "version"
       },
       "path"
     ]
   ],
   "_cnpm_publish_time": 1458847791615,
-  "_from": "sort-object-attribute@0.0.9",
+  "_from": "sort-object-attribute@0.0.10",
   "_hasShrinkwrap": false,
-  "_id": "sort-object-attribute@0.0.9",
+  "_id": "sort-object-attribute@0.0.10",
   "_inCache": true,
   "_location": "/sort-object-attribute",
   "_nodeVersion": "6.9.4",
@@ -31,21 +31,21 @@
   "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "sort-object-attribute@0.0.9",
+    "raw": "sort-object-attribute@0.0.10",
     "scope": null,
     "escapedName": "sort-object-attribute",
     "name": "sort-object-attribute",
-    "rawSpec": "0.0.9",
-    "spec": "0.0.9",
+    "rawSpec": "0.0.10",
+    "spec": "0.0.10",
     "type": "version"
   },
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "https://registry.npmjs.org/sort-object-attribute/-/sort-object-attribute-0.0.9.tgz",
+  "_resolved": "https://registry.npmjs.org/sort-object-attribute/-/sort-object-attribute-0.0.10.tgz",
   "_shasum": "468280efbc0473023cd3a6cd56e33b5a1d7fc3a9",
   "_shrinkwrap": null,
-  "_spec": "sort-object-attribute@0.0.9",
+  "_spec": "sort-object-attribute@0.0.10",
   "_where": "path  ",
   "author": {
     "name": "jkwu"
@@ -88,5 +88,5 @@
     "url": "git+ssh://git@github.com/suwu150/sort-object-attribute.git"
   },
   "scripts": {},
-  "version": "0.0.9"
+  "version": "0.0.10"
 }
