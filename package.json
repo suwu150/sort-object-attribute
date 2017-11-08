@@ -2,73 +2,71 @@
   "_args": [
     [
       {
-        "raw": "style-loader@0.13.1",
+        "raw": "sort-object-attribute@0.0.1",
         "scope": null,
-        "escapedName": "style-loader",
-        "name": "style-loader",
-        "rawSpec": "0.13.1",
-        "spec": "0.13.1",
+        "escapedName": "sort-object-attribute",
+        "name": "sort-object-attribute",
+        "rawSpec": "0.0.1",
+        "spec": "0.0.1",
         "type": "version"
       },
-      "/home/jkwu/WebstormProjects/mx-web-boilerplate-release  "
+      "path"
     ]
   ],
   "_cnpm_publish_time": 1458847791615,
-  "_from": "style-loader@0.13.1",
+  "_from": "sort-object-attribute@0.0.1",
   "_hasShrinkwrap": false,
-  "_id": "style-loader@0.13.1",
+  "_id": "sort-object-attribute@0.0.1",
   "_inCache": true,
-  "_location": "/style-loader",
-  "_nodeVersion": "5.4.1",
+  "_location": "/sort-object-attribute",
+  "_nodeVersion": "6.9.4",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/style-loader-0.13.1.tgz_1458847789435_0.8123822319321334"
+    "tmp": "tmp/path"
   },
   "_npmUser": {
-    "name": "sokra",
-    "email": "tobias.koppers@googlemail.com"
+    "name": "suwu150",
+    "email": "suwu150@163.com"
   },
-  "_npmVersion": "3.3.3",
+  "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "style-loader@0.13.1",
+    "raw": "sort-object-attribute@0.0.1",
     "scope": null,
-    "escapedName": "style-loader",
-    "name": "style-loader",
-    "rawSpec": "0.13.1",
-    "spec": "0.13.1",
+    "escapedName": "sort-object-attribute",
+    "name": "sort-object-attribute",
+    "rawSpec": "0.0.1",
+    "spec": "0.0.1",
     "type": "version"
   },
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "https://registry.npmjs.org/style-loader/-/style-loader-0.13.1.tgz",
+  "_resolved": "https://registry.npmjs.org/sort-object-attribute",
   "_shasum": "468280efbc0473023cd3a6cd56e33b5a1d7fc3a9",
   "_shrinkwrap": null,
-  "_spec": "style-loader@0.13.1",
-  "_where": "/home/jkwu/WebstormProjects/mx-web-boilerplate-release  ",
+  "_spec": "sort-object-attribute@0.0.1",
+  "_where": "path  ",
   "author": {
     "name": "jkwu"
   },
   "bugs": {
-    "url": "https://github.com/webpack/style-loader/issues"
+    "url": "https://github.com/suwu150/sort-object-attribute/issues"
   },
   "dependencies": {
     "loader-utils": "^0.2.7"
   },
-  "description": "style loader module for webpack",
-  "devDependencies": {
-    "css-loader": "~0.8.0"
-  },
+  "description": "sort-object-attribute module for object",
+  "devDependencies": {},
   "directories": {},
   "dist": {
     "shasum": "468280efbc0473023cd3a6cd56e33b5a1d7fc3a9",
     "size": 4692,
     "noattachment": false,
-    "tarball": "http://registry.npm.taobao.org/style-loader/download/style-loader-0.13.1.tgz"
+    "tarball": ""
   },
   "gitHead": "bba5bdb192b3d0cb487e2043a011562c6801f2c8",
-  "homepage": "https://github.com/webpack/style-loader#readme",
+  "homepage": "https://github.com/suwu150/sort-object-attribute@0.0.1#readme",
   "license": "MIT",
   "maintainers": [
     {
@@ -82,8 +80,8 @@
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/webpack/style-loader.git"
+    "url": "git+ssh://git@github.com/suwu150/sort-object-attribute.git"
   },
   "scripts": {},
-  "version": "0.13.1"
+  "version": "0.0.1"
 }
