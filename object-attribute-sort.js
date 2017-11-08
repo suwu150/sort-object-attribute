@@ -25,9 +25,10 @@ function objectAttributeSort(data) {
   * constructor new object
   * */
   var newObject = {};
-  sortedKeys.map( function(item) {
-    newObject[item] = object[item];
+  sortedKeys.map(function(item) {
+    newObject[item] = obj[item];
   });
+  return newObject;
 }
 
 module.exports = objectAttributeSort;
