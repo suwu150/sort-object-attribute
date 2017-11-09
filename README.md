@@ -11,10 +11,23 @@ npm i sort-object-attribute --save-dev
 var object = {name: 'jkwu', age: '20', sex: 'male'};
 var sortObjectKeys = require('sort-object-attribute');
 var sortedObject = sortObjectKeys(object);
-
 ```
 在上面代码中最终输出结果如下所示：
 ```
-{age: '20', name: 'jkwu', sex: 'male'}
+{ age: '20', name: 'jkwu', sex: 'male' }
 ```
+如果键中包含数字,则会按照数字在前,字母在后的排列顺序进行排列.如下面所示代码:
+```
+var an_obj = { 10: 'a', age: '20', 20: 'b', 7: 'c', name: 'jkwu', sex: 'male' };
 
+```
+结果如下所示:
+ ```
+ { '7': 'c',
+   '10': 'a',
+   '20': 'b',
+   age: '20',
+   name: 'jkwu',
+   sex: 'male'
+ }
+ ```
