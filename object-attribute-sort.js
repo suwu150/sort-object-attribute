@@ -3,8 +3,9 @@
  * @email suwu150@163.com
  *
  */
+var sortedKeysFun = require('./libs/sorted-keys');
 
-function objectAttributeSort(data) {
+function objectAttributeSort(data, func) {
   // null is an object in javascript, Exclude null
   var obj = (data !== null && typeof data === 'object') ? data : undefined;
   if (!obj) {
@@ -12,15 +13,10 @@ function objectAttributeSort(data) {
     return;
   }
   /*
-  * get object keys
+  * get object keys and sort keys
   * */
-  var objectKeys = Object.keys(obj);
+  var sortedKeys = sortedKeysFun(obj, func);
 
-  /*
-  * sort keys
-  * */
-
-  var sortedKeys = objectKeys.sort();
   /*
   * constructor new object
   * */
