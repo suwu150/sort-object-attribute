@@ -23,11 +23,5 @@ var an_obj = { 10: 'a', age: '20', 20: 'b', 7: 'c', name: 'jkwu', sex: 'male' };
 ```
 结果如下所示:
  ```
- { '7': 'c',
-   '10': 'a',
-   '20': 'b',
-   age: '20',
-   name: 'jkwu',
-   sex: 'male'
- }
+ { '7': 'c', '10': 'a', '20': 'b', age: '20', name: 'jkwu', sex: 'male' }
  ```
