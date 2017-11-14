@@ -3,7 +3,6 @@
  */
 
 function objectKeys(obj) {
-    console.log(obj);
     return Object.keys(obj);
 }
 
