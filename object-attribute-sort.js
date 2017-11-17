@@ -16,7 +16,6 @@ function objectAttributeSort(data, func) {
   * get object keys and sort keys
   * */
   var sortedKeys = sortedKeysFun(obj, func);
-
   /*
   * constructor new object
   * */
