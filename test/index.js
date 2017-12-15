@@ -17,11 +17,12 @@
 // var sortedObject = sortObjectKeys(object, sortNumber);
 // console.log(sortedObject);
 
-var object = { 10: 'a', 20: 'b', 7: 'c', 3000: 'big number', name: 'jkwu', gender: 'male' };
-function sortNumber(a,b)
-{
-    return b-a;
-}
-var sortObjectKeys = require('../index');
-var sortedObject = sortObjectKeys(object,sortNumber);
-console.log(JSON.stringify(sortedObject));
+// var object = { 10: 'a', 20: 'b', 7: 'c', 3000: 'big number', name: 'jkwu', gender: 'male' };
+// function sortNumber(a,b)
+// {
+//     return b-a;
+// }
+// var sortObjectKeys = require('../index');
+// var sortedObject = sortObjectKeys(object,sortNumber);
+// console.log(JSON.stringify(sortedObject));
+
