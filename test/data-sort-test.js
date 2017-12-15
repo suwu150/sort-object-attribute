@@ -8,6 +8,8 @@ var menuData = [
   {	sortCode: '10-20',id: 'AgentCredit'},
   {	sortCode: '10-30',id: 'ThirdParty'},
   {	sortCode: '20-10-20',id: 'ShowCase20-10-20'},
+  {	sortCode: '20-20-20',id: 'ShowCase20-10-20'},
+  {	sortCode: '20-20-10',id: 'ShowCase20-10-20'},
   {	sortCode: '20-10-20-30',id: 'ShowCase20-10-20-30'},
   {	sortCode: '20',id: 'ImportAgentCredit'},
   {	sortCode: '20-10',id: 'ShowCase20-10'}
@@ -18,15 +20,15 @@ function add (accumulator, currentValue) {
 }
 
 
-menuData.sort(function (obj1, obj2) {
-  if (typeof obj1 === 'object' && typeof obj2 === 'object') {
-    const obj1Items = obj1.sortCode && obj1.sortCode.split('-');
-    const obj2Items = obj2.sortCode && obj2.sortCode.split('-');
-    return obj1Items[0] - obj2Items[0];
-  } else {
-    return null;
-  }
-});
+// menuData.sort(function (obj1, obj2) {
+//   if (typeof obj1 === 'object' && typeof obj2 === 'object') {
+//     const obj1Items = obj1.sortCode && obj1.sortCode.split('-');
+//     const obj2Items = obj2.sortCode && obj2.sortCode.split('-');
+//     return obj1Items[0] - obj2Items[0];
+//   } else {
+//     return null;
+//   }
+// });
 
 // console.log(menuData);
 
