@@ -37,46 +37,50 @@ var an_obj = { 10: 'a', age: '20', 20: 'b', 7: 'c', sex: 'male', name: 'jkwu' };
   如下代码，sortedObject就是排序之后的对象，在默认排序中使用按照js中属性遍历的序列规则进行排序，
 
  ```$xslt
- var object = {
-   10: 'a',
-   age: '20',
-   20: {
-     nuber1: 'jkuw',
-     class: 'class4',
-     number2: 'jack',
-     acount: '400'
-   },
-   LN:'里宁',
-   7: 'c',
-   sex: 'male',
-   name: 'jkwu',
-   group: {
-     name: '永恒',
-     column: 1,
-     number: 30
-   }
- };
+var object = {
+  10: 'a',
+  age: '20',
+  20: {
+    nuber1: 'jkuw',
+    class: 'class4',
+    number2: 'jack',
+    7: 'number',
+    2: 'haha',
+    acount: '400'
+  },
+  LN:'里宁',
+  7: 'c',
+  sex: 'male',
+  name: 'jkwu',
+  group: {
+    name: '永恒',
+    column: 1,
+    member: '50',
+    7: 'number',
+    2: 'haha'
+  }
+};
  var sortObjectKeys = require('sort-object-attribute');
  var sortedObject = sortObjectKeys(object);
  ```
  在上面代码中最终输出结果如下所示：
  ```$xslt
- { '7': 'c',
-   '10': 'a',
-   '20':{
-      '2': 'haha',
-      '7': 'number',
-      acount: '400',
-      class: 'class4',
-      nuber1: 'jkuw',
-      number2: 'jack'
-    },
-   LN: '里宁',
-   age: '20',
-   group: { '2': 'haha', '7': 'number', column: 1, member: '50', name: '永恒' },
-   name: 'jkwu',
-   sex: 'male'
- }
+{ '7': 'c',
+  '10': 'a',
+  '20':
+   { '2': 'haha',
+     '7': 'number',
+     acount: '400',
+     class: 'class4',
+     nuber1: 'jkuw',
+     number2: 'jack'
+   },
+  LN: '里宁',
+  age: '20',
+  group: { '2': 'haha', '7': 'number', column: 1, member: '50', name: '永恒' },
+  name: 'jkwu',
+  sex: 'male' }
+
 
  ```
- 如果键中包含数字,则会按照数字在前,字母在后的排列顺序进行排列.如果键位为数字的对象，对象内部也会进行排序，具体排序与1）方法思路一致
+ 如果键中包含数字,则会按照数字在前,字母在后的排列顺序进行排列.如果键位为数字的对象，对象内部也会进行排序，具体排序结果与 1）方法一致
