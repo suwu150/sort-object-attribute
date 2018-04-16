@@ -4,6 +4,8 @@
  *
  */
 var sortedKeysFun = require('./libs/sorted-keys');
+var isObject = require('./libs/isObject');
+var isArray = require('./libs/isArray');
 
 function objectAttributeSort(data, func) {
   // null is an object in javascript, Exclude null
@@ -21,7 +23,11 @@ function objectAttributeSort(data, func) {
   * */
   var newObject = {};
   sortedKeys.map(function(item) {
-    newObject[item] = obj[item];
+    if (obj[item] && isObject(obj[item])) {
+      newObject[item] = objectAttributeSort(obj[item], func);
+    } else {
+      newObject[item] = obj[item];
+    }
   });
   return newObject;
 }
